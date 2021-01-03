@@ -1,0 +1,39 @@
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@300;400;700&display=swap");
+@import "shared/variables.css";
+@import "shared/header.css";
+@import "shared/button.css";
+
+:root {
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  color: var(--color-text-light);
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(
+    to right,
+    var(--color-background-dark),
+    var(--color-background-light)
+  );
+}
+
+.container {
+  max-width: 1200px;
+  margin: auto;
+  margin-bottom: 3rem;
+}
+
+.inner-container {
+  margin: 0 2rem;
+}
+
+.page-header {
+  font-size: 1.8rem;
+  font-family: "Lobster", cursive;
+}
